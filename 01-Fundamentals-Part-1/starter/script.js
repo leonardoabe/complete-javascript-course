@@ -67,4 +67,3 @@ if (dolphinsAvgScore < 100 && koalasAvgScore < 100) {
         console.log(`It's a draw!`);
     }
 }
-
