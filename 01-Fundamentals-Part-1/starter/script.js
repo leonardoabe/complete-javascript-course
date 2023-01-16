@@ -67,3 +67,19 @@ if (dolphinsAvgScore < 100 && koalasAvgScore < 100) {
         console.log(`It's a draw!`);
     }
 }
+/*--------------------------------------------------------------------------------------------------------*/
+//Challenge #4
+//Data 1
+
+const bill = 275;
+//const bill = 40;
+//const bill = 430;
+
+const tip = bill >= 50 && bill <= 300 ? calculatePercentage(bill, 15) : calculatePercentage(bill, 20);
+const totalValue = bill + tip;
+
+function calculatePercentage(value, percentage) {
+    return (value * percentage) / 100;
+}
+
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${totalValue}`);
